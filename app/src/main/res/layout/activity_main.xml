@@ -12,17 +12,13 @@
         android:id="@+id/progress"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:samsung_bg_color="@color/colorPrimary"
         app:samsung_border="6dp"
         app:samsung_duration="400"
         app:samsung_max="120"
         app:samsung_min="-50"
         app:samsung_progress="50"
-        app:samsung_progress_bg_color="@color/colorPrimaryDark"
-        app:samsung_progress_color="@android:color/holo_blue_bright"
-        app:samsung_suffix="%"
-        app:samsung_text_color="@color/colorAccent"
-        app:samsung_text_size="12sp" />
+
+        />
 
     <Button
         android:id="@+id/btn_add"
