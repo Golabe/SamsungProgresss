@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <top.golabe.library.SamsungProgressView
+        android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:samsung_bg_color="@color/colorPrimary"
+        app:samsung_border="6dp"
+        app:samsung_duration="400"
+        app:samsung_max="120"
+        app:samsung_min="-50"
+        app:samsung_progress="50"
+        app:samsung_progress_bg_color="@color/colorPrimaryDark"
+        app:samsung_progress_color="@android:color/holo_blue_bright"
+        app:samsung_suffix="%"
+        app:samsung_text_color="@color/colorAccent"
+        app:samsung_text_size="12sp" />
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="add"
+        android:text="增加" />
+
+    <Button
+        android:id="@+id/btn_lower"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="lower"
+        android:text="减少" />
+
+</LinearLayout>

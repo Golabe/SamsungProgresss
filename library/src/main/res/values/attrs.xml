@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SamsungProgressView">
+        <attr name="samsung_bg_color" format="color" />
+        <attr name="samsung_progress" format="integer" />
+        <attr name="samsung_min" format="integer" />
+        <attr name="samsung_max" format="integer" />
+        <attr name="samsung_progress_bg_color" format="color" />
+        <attr name="samsung_progress_color" format="color" />
+        <attr name="samsung_border" format="dimension" />
+
+        <attr name="samsung_text_color" format="color" />
+        <attr name="samsung_text_size" format="dimension" />
+        <attr name="samsung_suffix" format="string"/>
+        <attr name="samsung_duration" format="integer"/>
+
+    </declare-styleable>
+</resources>
