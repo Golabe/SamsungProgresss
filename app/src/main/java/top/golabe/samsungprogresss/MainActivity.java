@@ -16,14 +16,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         mSamsungProgressView = findViewById(R.id.progress);
-//        mSamsungProgressView.setBgColor();
-//        mSamsungProgressView.setBorder();
-//        mSamsungProgressView.setDuration();
-//        mSamsungProgressView.setMax();
-//        mSamsungProgressView.setMin();
-//        mSamsungProgressView.setSuffix();
-//        mSamsungProgressView.setTextColor();
-//        mSamsungProgressView.setTextSize();
+
     }
 
     public void add(View view) {
