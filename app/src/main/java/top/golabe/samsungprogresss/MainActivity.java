@@ -16,15 +16,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         mSamsungProgressView = findViewById(R.id.progress);
-
     }
 
     public void add(View view) {
-
         progress += 10;
         mSamsungProgressView.setProgress(progress);
-
-
     }
 
     public void lower(View view) {

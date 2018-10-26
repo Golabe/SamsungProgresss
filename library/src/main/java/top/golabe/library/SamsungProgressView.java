@@ -32,10 +32,6 @@ public class SamsungProgressView extends View {
     private Point mCenterPoint;
     private String suffix;
     private Context mContext;
-    private int mW;
-    private int mH;
-    private int mPadding;
-
     private Paint mTextPaint;
     private Paint mProgressPaint;
     private Paint mConfirmBgPaint;
@@ -127,11 +123,9 @@ public class SamsungProgressView extends View {
         mProgressBgPath.reset();
         mCenterPoint.x = w / 2;
         mCenterPoint.y = h / 2;
-        mW = w;
-        mH = h;
-        mPadding = w / 16;
-        mRadius = w / 2 - mPadding;
-        mRectF.set(mPadding, mPadding, w - mPadding, h - mPadding);
+        int padding = w / 16;
+        mRadius = w / 2 - padding;
+        mRectF.set(padding, padding, w - padding, h - padding);
         mProgressBgPath.addCircle(mCenterPoint.x, mCenterPoint.y, mRadius, Path.Direction.CW);
     }
 
@@ -166,8 +160,6 @@ public class SamsungProgressView extends View {
         }
 
     }
-
-
 
     private void drawText(Canvas canvas) {
         if (TextUtils.isEmpty(suffix)) {

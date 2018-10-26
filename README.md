@@ -4,6 +4,10 @@
 ![markdown](https://github.com/Golabe/SamsungProgresss/blob/master/images/image2.png?raw=true "markdown")
 ![markdown](https://github.com/Golabe/SamsungProgresss/blob/master/images/image3.png?raw=true "markdown")
 ![markdown](https://github.com/Golabe/SamsungProgresss/blob/master/images/image4.png?raw=true "markdown")
+
+# Use
+## Gradle 
+> implementation 'top.golabe.samsungprogresss:library:0.0.2'
 ## In layout.xml
 
 
